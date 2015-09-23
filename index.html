@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)http://ironsummitmedia.github.io/startbootstrap-portfolio-item/ -->
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Seat Plan</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+	
+	<h2 class="offscreen">W3C Web Resources</h2> 
+	<div id="vmenu"> 
+	<ul> 
+	  <li><a href="http://www.w3.org/Consortium/activities">W3C Activities</a></li> 
+	  <li><a href="http://www.w3.org/TR/">W3C Technical Reports</a></li> 
+	  <li><a href="http://www.w3.org/Consortium/siteindex">W3C Site Index</a></li> 
+	  <li><a href="http://www.w3.org/Consortium/new-to-w3c">New Visitors</a></li> 
+	  <li><a href="http://www.w3.org/Consortium/">About W3C</a></li> 
+	  <li><a href="http://www.w3.org/Consortium/join">Join W3C</a></li> 
+	  <li><a href="http://www.w3.org/Consortium/contact">Contact W3C</a></li> 
+	</ul>   
+	</div> 
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">KU Seat Plan</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px;">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html#">Home</a>
+                    </li>
+                    <li>
+                        <a href="/#">Schedule</a>
+                    </li>
+                    <li>
+                        <a href="/#">Map</a>
+                    </li>
+					<li>
+                        <a href="/#">About Us</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+
+
+    <!-- Portfolio Item Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <img name="slide" src="images/image1.jpg" height=150 width=100%></img>
+				<label for="male"></label>
+				
+				</br>
+				<div>
+				
+				<form onsubmit="return checkRoll()" method="get" action="next.html">
+					<input id="textInput" name="roll" type="text" class="form-control" placeholder="Enter Roll Here, eg. 0001">
+					</br>
+					<button id="forButton" type="submit" class="btn btn-primary btn-lg active" onClick="submitform();">Submit</button>
+				</form>
+				
+				<script type="text/javascript">
+				   function submitform()
+				   {
+					 document.forms.form1.hidden1.value=1;
+					 alert("i am working");
+
+					document.form1.submit();
+				   }
+				</script>
+				</div>
+            </div>
+        </div>
+
+	</div>
+	<!-- /.container -->
+	
+    <!-- Footer -->
+        
+    <div class="row footer">
+        <div class="col-lg-12">
+            <p>Copyright © CSE'12</p>
+        </div>
+    </div>
+	
+	
+    <!-- jQuery -->
+    <script src="./index_files/jquery.js"></script>
+
+    <script type="text/javascript" src="js/script.js"></script>
+		
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+.input {
+	padding: 10px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+    outline: 0;
+    background: white;
+	font-size:16px;
+    width: 100%;
+	height:30px;
+}
+.textboxOnClickStyle
+ {
+	-moz-box-shadow: 0 0 10px 1px #6DC421;
+    -webkit-box-shadow: 0 0 10px 1px #6DC421;
+     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+	padding: 10px;
+	border: solid 1px #dcdcdc;
+	transition: box-shadow 0.3s, border 0.3s;
+    outline: 0;
+    background: white;
+	font-size:16px;
+    width: 100%;
+	height:30px;
+  }
+.btn {
+    border: 1;
+    outline: 0;
+    background: white;
+	font-size:16px;
+    width: 100%;
+	height:30px;
+	font-weight:bold;
+}
+
+.footer{
+	border: 0;
+    outline: 0;
+    background: white;
+	font-size:11px;
+    width: 100%;
+	height:18px;
+	position:absolute;
+	bottom:0px;
+	text-align:center;
+}
+
+
+
+.forBackground{
+	background-color:@gray;
+}
+#textInput{}
+#forButton{
+	height:40px;
+}
+#forRoll{}
+#forCampus{}
+#forBuilding{}
+#forFloor{}
+#forRoom{}
+
+
+/* CSS Document */ 
+
+.offscreen { 
+  position: absolute; 
+  top: -30em; 
+  left: -300em; 
+} 
+
+div#vmenu { 
+   margin: 0; 
+   padding: .25em 0em .25em 0em; 
+   border: solid 1px #30c9e0; 
+   background: #fcac4c; 
+   width: 13.5em; 
+} 
+
+div#vmenu ul { 
+   margin: 0; 
+   padding: 0; 
+   list-style: none; 
+} 
+
+div#vmenu ul li { 
+   margin: 0; 
+   padding: 0; 
+   list-style: none; 
+} 
+
+div#vmenu ul a:link { 
+   margin: 0; 
+   padding: .2em 0em .2em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #fcac3c; 
+   color: #0059a0; 
+   display: block; 
+} 
+
+div#vmenu ul a:active { 
+   margin: 0; 
+   padding: .25em .5em .25em .5em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background: #4d8cba; 
+   color: #ffffff; 
+   display: block; 
+} 
+
+div#vmenu ul a:visited { 
+   margin: 0; 
+   padding:  .25em .5em .25em .5em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background: #4d8cba; 
+   color: #ffffff; 
+   display: block; 
+} 
+
+div#vmenu ul li a:hover { 
+   margin: 0; 
+   padding: .2em 0em .2em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   background-color: #30c9e0; 
+   color: #ffffff; 
+   display: block; 
+} 
